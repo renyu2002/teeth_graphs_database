@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main</class>
+ <widget class="QMainWindow" name="main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1172</width>
+    <height>1042</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>430</y>
+      <width>1151</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="insert_pushButton_1">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>551</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>增加数据</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="delete_pushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>190</y>
+       <width>551</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>删除数据</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="alter_pushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>340</y>
+       <width>551</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>修改数据</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="search_pushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>490</y>
+       <width>551</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>查询数据</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="insert_pushButton_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>40</y>
+       <width>551</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>批量增加数据</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>11</y>
+      <width>22</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3"/>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>1121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 48pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>欢迎使用口腔头颈影像管理系统</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>1141</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="host_label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>IP:</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="host_textEdit">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>10</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="port_label">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>10</y>
+       <width>101</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>端口:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="user_label">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>10</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>用户名:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pswd_label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>91</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>密码:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="database_label">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>90</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>数据库名:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="table_label">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>90</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>表名:</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="port_textEdit">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>10</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="user_textEdit">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>10</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="pswd_textEdit">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>90</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="database_textEdit">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>90</y>
+       <width>221</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="table_textEdit">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>90</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="settings_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>160</y>
+       <width>371</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1172</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
